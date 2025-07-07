@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Greet from "./components/Greet";
 
 export default function Home() {
   return (
@@ -21,7 +22,7 @@ export default function Home() {
             .
           </li>
           <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
+       rahat app
           </li>
         </ol>
 
@@ -39,6 +40,7 @@ export default function Home() {
               width={20}
               height={20}
             />
+          
             Deploy now
           </a>
           <a
@@ -49,6 +51,7 @@ export default function Home() {
           >
             Read our docs
           </a>
+            <Greet/>
         </div>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
