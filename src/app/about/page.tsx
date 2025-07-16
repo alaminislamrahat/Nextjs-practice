@@ -7,7 +7,7 @@ const About = () => {
     return (
         <div>
             about
-            <button className='bg-teal-300 text-white pointer-events-auto ' onClick={()=> router.push('/')}>Go home</button>
+            <button className='bg-teal-300 text-white pointer-events-auto' onClick={()=> router.push('/')}>Go home</button>
         </div>
     );
 };
